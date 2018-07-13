@@ -44,6 +44,7 @@ ul li {
 /*BANNER*/
 .banner {
   display: flex;
+  align-items: center;
   background-color: grey;
 }
 
@@ -53,12 +54,26 @@ ul li {
   margin: 2rem 1.5rem;
 }
 
-.bannertext {
-  display: flex;
-  align-items: center;
-  width: 80%;
+.bannercontainer {
+  width: 30%;
 }
 
-.text1 {
+.bannertext h2 {
   font-size: 3.5rem;
+  margin: 1.5rem 0rem;
+}
+
+.bannertext h4 {
+  font-size: 2rem;
+  margin: 1.5rem 0rem;
+}
+
+.button {
+  text-align: center;
+  color: white;
+  width: 40%;
+  margin: 3rem 0rem;
+  padding: 0.5rem 0rem;
+  border: 0px solid red;
+  background-color: lightgrey;
 }
