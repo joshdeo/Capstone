@@ -1,0 +1,33 @@
+html {
+  font-size: 16px;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+}
+
+/*HEADER*/
+.heading {
+  height: 4rem;
+  width: 100%;
+  background-color: lightblue;
+}
+
+.colmar {
+  display: flex;
+  align-items: center;
+  margin-left: 1.4rem;
+}
+
+.items {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin-right: 1.2rem;
+}
+
+ul li {
+  display: inline;
+  margin: 0rem 1rem;
+}
