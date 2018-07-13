@@ -17,7 +17,7 @@ html {
 .colmar {
   display: flex;
   align-items: center;
-  margin-left: 1.4rem;
+  margin-left: 1.5rem;
   height: 1.2rem;
 }
 
@@ -39,4 +39,26 @@ ul li {
 
 .acad {
   opacity: 0.5;
+}
+
+/*BANNER*/
+.banner {
+  display: flex;
+  background-color: grey;
+}
+
+.banner img {
+  width: 60%;
+  height: 60%;
+  margin: 2rem 1.5rem;
+}
+
+.bannertext {
+  display: flex;
+  align-items: center;
+  width: 80%;
+}
+
+.text1 {
+  font-size: 3.5rem;
 }
