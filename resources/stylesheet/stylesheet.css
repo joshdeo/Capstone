@@ -1,5 +1,6 @@
 html {
   font-size: 16px;
+  font-family: helvetica, san-sans-serif;
 }
 
 .container {
@@ -11,23 +12,31 @@ html {
 .heading {
   height: 4rem;
   width: 100%;
-  background-color: lightblue;
 }
 
 .colmar {
   display: flex;
   align-items: center;
   margin-left: 1.4rem;
+  height: 1.2rem;
 }
 
 .items {
   display: flex;
   justify-content: flex-end;
   align-items: center;
-  margin-right: 1.2rem;
+  margin-right: 1.5rem;
 }
 
 ul li {
   display: inline;
   margin: 0rem 1rem;
+}
+
+.col {
+  font-weight: bold;
+}
+
+.acad {
+  opacity: 0.5;
 }
