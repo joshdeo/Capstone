@@ -49,8 +49,7 @@ ul li {
 }
 
 .banner img {
-  width: 60%;
-  height: 60%;
+  width: 45.5%;
   margin: 2rem 1.5rem;
 }
 
@@ -80,11 +79,61 @@ ul li {
 
 /*MID PAGE*/
 
+.midpage {
+  width: 100%;
+  display: flex;
+}
+
+.midcontent {
+  width: 60%;
+}
+
 .midpage img {
   display: flex;
   justify-content: flex-start;
-  align-items: center;
   width: 60%;
-  height: 60%;
   margin: 2rem 1.5rem;
+}
+
+.midcontent h1 {
+  margin-left: 22%;
+}
+
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  width: 40%;
+}
+
+.side1 {
+  border: 1px solid grey;
+}
+
+.side2 {
+  border: 1px solid grey;
+}
+
+.side3 {
+  border: 1px solid grey;
+}
+
+.sidebar img {
+  width: 35%;
+  height: auto;
+}
+
+.thirdsec {
+  display: flex;
+  margin-top: 2rem;
+  }
+
+  .boxsec {
+    display: flex;
+    justify-content: center;
+  }
+
+.thirdsec img {
+  height: auto;
+  width: 50%;
 }
