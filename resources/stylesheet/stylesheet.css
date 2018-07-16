@@ -123,6 +123,18 @@ ul li {
   height: auto;
 }
 
+/*THIRD SECTION*/
+
+.lead {
+  background-color: gray;
+}
+
+.heading1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .thirdsec {
   display: flex;
   margin-top: 2rem;
