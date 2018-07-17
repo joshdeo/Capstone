@@ -107,6 +107,8 @@ ul li {
 }
 
 .side1 {
+  display: flex;
+  align-items: center;
   border: 1px solid grey;
 }
 
@@ -123,7 +125,7 @@ ul li {
   height: auto;
 }
 
-/*THIRD SECTION*/
+/*SECOND LAST*/
 
 .lead {
   background-color: gray;
@@ -133,6 +135,7 @@ ul li {
   display: flex;
   justify-content: center;
   align-items: center;
+  padding: 2rem 0rem;
 }
 
 .thirdsec {
@@ -140,12 +143,44 @@ ul li {
   margin-top: 2rem;
   }
 
-  .boxsec {
-    display: flex;
-    justify-content: center;
+.boxsec {
+  display: flex;
+  justify-content: center;
   }
 
 .thirdsec img {
   height: auto;
   width: 50%;
+}
+
+/*LAST*/
+
+.last {
+  width: 100%;
+  display: flex;
+}
+
+.lastcontent {
+    width: 60%;
+  }
+
+.lasthead {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem 0rem;
+}
+
+video {
+  display: flex;
+  justify-content: flex-start;
+  width: 60%;
+  margin: 0rem 1.5rem;
+}
+
+.sidelast {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  width: 40%;
 }
