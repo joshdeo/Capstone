@@ -107,8 +107,6 @@ ul li {
 }
 
 .side1 {
-  display: flex;
-  align-items: center;
   border: 1px solid grey;
 }
 
@@ -118,6 +116,10 @@ ul li {
 
 .side3 {
   border: 1px solid grey;
+}
+
+.side1 p {
+  position: relative;
 }
 
 .sidebar img {
@@ -178,9 +180,22 @@ video {
   margin: 0rem 1.5rem;
 }
 
-.sidelast {
+.sidebottom img {
+  width: 35%;
+  height: auto;
+}
+
+.sidebottom {
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
   width: 40%;
+}
+
+.sidebottom1 {
+  border: 1px solid grey;
+}
+
+.sidebottom2 {
+  border: 1px solid grey;
 }
