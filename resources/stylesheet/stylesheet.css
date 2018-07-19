@@ -113,14 +113,17 @@ ul li {
 }
 
 .side1 {
+  display: flex;
   border: 1px solid grey;
 }
 
 .side2 {
+  display: flex;
   border: 1px solid grey;
 }
 
 .side3 {
+  display: flex;
   border: 1px solid grey;
 }
 
@@ -136,6 +139,7 @@ ul li {
 .sidetext {
   display: flex;
   justify-content: flex-end;
+  flex-direction: column;
 }
 
 /*SECOND LAST*/
