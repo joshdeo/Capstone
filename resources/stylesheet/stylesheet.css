@@ -9,6 +9,11 @@ html {
 }
 
 /*HEADER*/
+
+header {
+  align-items: center;
+}
+
 .heading {
   height: 4rem;
   width: 100%;
@@ -245,4 +250,35 @@ video {
 .footright {
   margin-right: 2rem;
   justify-content: flex-end;
+}
+
+@media only screen and (min-width: 1024px) {
+  .imgquery {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+
+  .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+
+  .col {
+    display: none;
+  }
+
+  .acad {
+    display: none;
+  }
+
+  nav {
+    height: 64px;
+  }
+
+  .items {
+    display: none;
+  }
 }
