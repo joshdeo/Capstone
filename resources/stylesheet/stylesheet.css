@@ -22,8 +22,10 @@ header {
 .colmar {
   display: flex;
   align-items: center;
+  justify-content: space-around;
   margin-left: 1.5rem;
   height: 1.2rem;
+  width: 100%;
 }
 
 .items {
@@ -165,10 +167,15 @@ ul li {
   margin-top: 2rem;
   }
 
+  .box1 {
+    width: 33%;
+  }
+
 .boxsec {
   display: flex;
   justify-content: center;
   flex-direction: row;
+  flex-wrap: wrap;
   }
 
 .thirdsec img {
@@ -283,7 +290,7 @@ video {
   }
 
   .bannercontainer {
-    display: none;
+    
 }
 
   .banner img {
