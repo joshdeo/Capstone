@@ -342,6 +342,10 @@ video {
     border: 0;
   }
 
+  .heading1 {
+    border-top: 1px solid gray;
+  }
+
   .sidetext {
     padding-left: 2rem;
   }
