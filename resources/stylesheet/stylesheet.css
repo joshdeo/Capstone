@@ -281,4 +281,26 @@ video {
   .items {
     display: none;
   }
+
+  .bannercontainer {
+    display: none;
 }
+
+  .banner img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+  }
+
+  .banner {
+    background-color: white;
+  }
+
+  .bannertext {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+ }
