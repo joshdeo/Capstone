@@ -425,14 +425,8 @@ video {
     display: none;
   }
 
-  footer {
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-  }
-
   .footspan {
     font-size: 0.8rem;
-  }
-
  }
+
+  }
